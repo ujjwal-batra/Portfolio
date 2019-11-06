@@ -156,3 +156,8 @@ function showSlides(n, no) {
   x[slideIndex[no]-1].style.display = "block";  
 }
 
+var abc = document.getElementById("open");
+var img = document.getElementById("imgContain");
+function openup(){
+  img.style.height = "100%";
+}
