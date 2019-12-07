@@ -496,6 +496,21 @@ img {vertical-align: middle;}
     font-weight: bold;
 }
 
+.borderit1{
+    border: 2px #4A2592 solid;
+    padding: 2%;
+    margin-top: 2% ;
+}
+.borderit2{
+    border: 2px #E12729 solid;
+    padding: 2%;
+    margin-top: 2% ;
+}
+.borderit3{
+    border: 2px #7E5AE1 solid;
+    padding: 2%;
+    margin-top: 2% ;
+}
 .head_hack{
     color: #4A2592;
     font-weight: bold;
