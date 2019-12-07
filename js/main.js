@@ -105,6 +105,8 @@ $('#portfolioModal10').on('show.bs.modal', function(e) { clickProject(this.id.sl
 $('#portfolioModal11').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
 $('#portfolioModal12').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
 
+$('#portfolioModal13').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
+
 
 $('#portfolioModal1').on('hide.bs.modal', closeProject);
 $('#portfolioModal2').on('hide.bs.modal', closeProject);
@@ -118,6 +120,8 @@ $('#portfolioModal9').on('hide.bs.modal', closeProject);
 $('#portfolioModal10').on('hide.bs.modal', closeProject);
 $('#portfolioModal11').on('hide.bs.modal', closeProject);
 $('#portfolioModal12').on('hide.bs.modal', closeProject);
+
+$('#portfolioModal13').on('hide.bs.modal', closeProject);
 
 
 $(window).on('hashchange', function (e) {
@@ -159,5 +163,8 @@ function showSlides(n, no) {
 var abc = document.getElementById("open");
 var img = document.getElementById("imgContain");
 function openup(){
-  img.style.height = "100%";
+  if(img.style.height == "0px")
+    img.style.height = "100%";
+  else
+    img.style.height = "0px";
 }

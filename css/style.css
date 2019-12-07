@@ -517,7 +517,8 @@ img {vertical-align: middle;}
 #imgContain{
     height: 0px;
     overflow: hidden;
-    transition: 1s auto;
+    /* transition: height 1s ease-in-out; */
+    /* transition-property: height; */
 }
 
 .herex{
@@ -528,4 +529,12 @@ img {vertical-align: middle;}
 
 .headit_1{
     color: #F80640;
+}
+
+.me{
+    font-size: 20px;
+}
+
+.myaboutImage{
+    border-radius: 50%;
 }
