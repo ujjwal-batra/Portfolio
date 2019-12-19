@@ -107,6 +107,7 @@ $('#portfolioModal12').on('show.bs.modal', function(e) { clickProject(this.id.sl
 
 $('#portfolioModal13').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
 $('#portfolioModal14').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
+$('#portfolioModal15').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
 
 
 $('#portfolioModal1').on('hide.bs.modal', closeProject);
@@ -124,6 +125,7 @@ $('#portfolioModal12').on('hide.bs.modal', closeProject);
 
 $('#portfolioModal13').on('hide.bs.modal', closeProject);
 $('#portfolioModal14').on('hide.bs.modal', closeProject);
+$('#portfolioModal15').on('hide.bs.modal', closeProject);
 
 
 $(window).on('hashchange', function (e) {
