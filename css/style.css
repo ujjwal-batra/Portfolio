@@ -386,7 +386,12 @@ color: #613EEA;
 }
 
 
-
+.headingp10{
+    font-family: Montserrat;
+    font-size: 36px;
+    color: #01BDAE;
+    font-weight: bold;
+}
 /* project4 */
 
 .headingp4{
@@ -490,6 +495,9 @@ img {vertical-align: middle;}
 
 .btnColor1{
     background: #F0426D;
+}
+.btnColor10{
+    background: #01BDAE;
 }
 
 .projectTitle{
