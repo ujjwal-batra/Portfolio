@@ -567,7 +567,11 @@ img {vertical-align: middle;}
     margin-top: -3%;
 }
 .miniheadingp10{
-    font-size: 20px;
+    font-size: 22px;
+    margin-bottom: -2%;
+}
+.miniheadingp11{
+    font-size: 22px;
     margin-bottom: -2%;
 }
 .blue{
@@ -592,4 +596,16 @@ img {vertical-align: middle;}
 
 .shadowit{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.onhover:hover{
+    color: #F0426D;
+}
+.pinkborder1{
+    padding-left: 1%;
+}
+
+.grey{
+    color: grey;
+    font-size: 18px;
 }
