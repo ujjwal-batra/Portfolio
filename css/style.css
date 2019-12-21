@@ -561,3 +561,31 @@ img {vertical-align: middle;}
 .myaboutImage{
     border-radius: 50%;
 }
+
+.tersusImg{
+    margin-bottom: 2%;
+    margin-top: -3%;
+}
+.miniheadingp10{
+    font-size: 20px;
+    margin-bottom: -2%;
+}
+.blue{
+    color: #01BDAE;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+.borderit10{
+    border: 2px #01BDAE solid;
+    padding: 2%;
+    margin-top: 2% ;
+}
+
+.headingp12{
+    font-family: Montserrat;
+    font-size: 36px;
+    color: #01BDAE;
+    font-weight: bold;
+    margin-top: 2%;
+}
