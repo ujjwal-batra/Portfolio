@@ -311,7 +311,13 @@
     font-family: Sarabun;
     src: url(../img/xportfolio/project3/fonts/sarabun/Sarabun-Regular.ttf);
 }
-
+@font-face {
+    font-family: monospace1;
+    src: url(../img/xportfolio/inconsolata/Inconsolata-Regular.ttf);
+}
+.monospace{
+    font-family: monospace1;
+}
 .borderit_1{
     border: 3px #fff solid;
     padding: 2%;
