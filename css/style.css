@@ -616,3 +616,7 @@ img {vertical-align: middle;}
     color: grey;
     font-size: 18px;
 }
+
+.portfolio-hover{
+    border-radius: 2%;
+}
